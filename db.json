@@ -94,7 +94,7 @@
     {
       "email": "anita.borg@systers.xyz",
       "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
-      "role": "admin",
+      "role": "admin", //aqui define o q a pessoa pode ver ou não de acordo com o token
       "id": 1
     },
     {
@@ -102,6 +102,12 @@
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "role": "admin",
       "id": 2
+    },
+    {
+      "email": "vitoria.oliveira@gmail.com",
+      "password": "$2a$10$DOzn3gE9JqbE.iDSpq/LAuBztyObXiZxx2c9mu/o7fRQTbjwdrOze",
+      "role": "admin",
+      "id": 3
     }
   ]
 }
