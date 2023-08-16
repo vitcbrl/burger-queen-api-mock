@@ -7,7 +7,7 @@ se crea un mock para
 
 ## Ejecución
 
-1. Clona el repositorio
+1. Clona el repositorio lalala
 2. Instala las dependencias
     ```bash
     npm install
