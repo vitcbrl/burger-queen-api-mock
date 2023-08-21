@@ -70,7 +70,7 @@
         "id": "1",
         "name": "Café americano",
         "price": "5",
-        "image": "https://imgbox.com/DCERopVE",
+        "image": "https://images2.imgbox.com/55/d6/DCERopVE_o.png",
         "type": "Café da manha",
         "dataEntry": "2023-08-16 20:06:01"
       },
@@ -78,7 +78,7 @@
         "id": "2",
         "name": "Café com leite",
         "price": "7",
-        "image": "https://imgbox.com/Rr42qohO",
+        "image": "https://images2.imgbox.com/68/73/Rr42qohO_o.png",
         "type": "Café da manha",
         "dataEntry": "2023-08-16 20:16:04"
       },
@@ -86,7 +86,7 @@
         "id": "3",
         "name": "Sanduíche de presunto e queijo",
         "price": "10",
-        "image": "https://imgbox.com/m3deReIM",
+        "image": "https://images2.imgbox.com/3f/08/m3deReIM_o.png",
         "type": "Café da manha",
         "dataEntry": "2023-08-16 20:17:08"
       },
@@ -94,7 +94,7 @@
         "id": "4",
         "name": "Suco de fruta natural",
         "price": "10",
-        "image": "https://imgbox.com/MViIfsqP",
+        "image": "https://images2.imgbox.com/1b/3d/MViIfsqP_o.png",
         "type": "Café da manha",
         "dataEntry": "2023-08-16 20:18:09"
       },
@@ -102,7 +102,7 @@
         "id": "5",
         "name": "Hambúrguer simples",
         "price": "10",
-        "image": "https://imgbox.com/y0IlDlgc",
+        "image": "https://images2.imgbox.com/eb/22/y0IlDlgc_o.png",
         "type": "Almoço",
         "dataEntry": "2023-08-16 20:20:08"
       },
@@ -110,7 +110,7 @@
         "id": "6",
         "name": "Hambúrguer duplo",
         "price": "15",
-        "image": "https://imgbox.com/6gp2IPLd",
+        "image": "https://images2.imgbox.com/1e/5e/6gp2IPLd_o.png",
         "type": "Almoço",
         "dataEntry": "2023-08-16 20:22:08"
       },
@@ -118,7 +118,7 @@
         "id": "7",
         "name": "Batata frita",
         "price": "5",
-        "image": "https://imgbox.com/0K72adUt",
+        "image": "https://images2.imgbox.com/78/9d/0K72adUt_o.png",
         "type": "Almoço",
         "dataEntry": "2023-08-16 20:25:07"
       },
@@ -126,7 +126,7 @@
         "id": "8",
         "name": "Anéis de cebola",
         "price": "5",
-        "image": "https://imgbox.com/bF8IBK4m",
+        "image": "https://images2.imgbox.com/26/18/bF8IBK4m_o.png",
         "type": "Almoço",
         "dataEntry": "2023-08-16 20:28:10"
       },
@@ -134,7 +134,7 @@
         "id": "9",
         "name": "Água 500ml",
         "price": "5",
-        "image": "https://imgbox.com/L0NYGzm8",
+        "image": "https://images2.imgbox.com/17/f1/L0NYGzm8_o.png",
         "type": "Almoço",
         "dataEntry": "2023-08-16 20:30:41"
       },
@@ -142,7 +142,7 @@
         "id": "10",
         "name": "Água 750ml",
         "price": "7",
-        "image": "https://imgbox.com/3vNXtRyI",
+        "image": "https://images2.imgbox.com/3d/2c/3vNXtRyI_o.png",
         "type": "Almoço",
         "dataEntry": "2023-08-16 20:32:14"
       },
@@ -150,7 +150,7 @@
         "id": "11",
         "name": "Bebida gaseificada 500ml",
         "price": "7",
-        "image": "https://imgbox.com/CP7KFXlm",
+        "image": "https://images2.imgbox.com/5a/fa/CP7KFXlm_o.png",
         "type": "Almoço",
         "dataEntry": "2023-08-16 20:33:32"
       },
@@ -158,7 +158,7 @@
         "id": "12",
         "name": "Bebida gaseificada 750ml",
         "price": "10",
-        "image": "https://imgbox.com/CP7KFXlm",
+        "image": "https://images2.imgbox.com/5a/fa/CP7KFXlm_o.png",
         "type": "Almoço",
         "dataEntry": "2023-08-16 20:35:02"
       }
@@ -168,7 +168,7 @@
     {
       "email": "garconente@burguerMV.com",
       "password": "$2a$10$/VZsgjQ7ztMtO4cEiYkADuXWlJRp79s82jVEVkcSR1Fr8LxzXzDYC",
-      "role": "admin",
+      "role": "service",
       "id": 1
     },
     {
@@ -178,8 +178,13 @@
       "id": 2
     },
     {
+<<<<<<< Updated upstream
       "email": "administrador@burguerMV.com",
       "password": "$2a$10$/xHIoXvgEBpG4KSMgBuhN.tS5WnoMDolpg.y2xj77wvSGQv6kUvNu",
+=======
+      "email": "admin@burguerMV.com",
+      "password": "$2a$10$DOzn3gE9JqbE.iDSpq/LAuBztyObXiZxx2c9mu/o7fRQTbjwdrOze",
+>>>>>>> Stashed changes
       "role": "admin",
       "id": 3
     }
