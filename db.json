@@ -11,7 +11,7 @@
             "id": "1",
             "name": "Anéis de cebola",
             "price": "5",
-            "image": "https://imgbox.com/bF8IBK4m",
+            "image": "https://images2.imgbox.com/26/18/bF8IBK4m_o.png",
             "type": "Almoço",
             "dataEntry": "2023-08-16 20:28:10"
           }
@@ -32,7 +32,7 @@
             "id": "6",
             "name": "Hambúrguer duplo",
             "price": "15",
-            "image": "https://imgbox.com/6gp2IPLd",
+            "image": "https://images2.imgbox.com/1e/5e/6gp2IPLd_o.png",
             "type": "Almoço",
             "dataEntry": "2023-08-16 20:28:10"
           }
@@ -53,7 +53,7 @@
             "id": "1",
             "name": "Café Americano",
             "price": "5",
-            "image": "https://imgbox.com/DCERopVE",
+            "image": "https://images2.imgbox.com/55/d6/DCERopVE_o.png",
             "type": "Café da manha",
             "dataEntry": "2023-08-16 20:28:10"
           }
