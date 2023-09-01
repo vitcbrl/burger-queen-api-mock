@@ -416,39 +416,23 @@
     ]
   ],
   "users": [
-    {
-      "name": "Biscoito",
-      "email": "garconete@burguerMV.com",
-      "password": "$2a$10$/VZsgjQ7ztMtO4cEiYkADuXWlJRp79s82jVEVkcSR1Fr8LxzXzDYC",
-      "role": "service",
-      "id": 1
-    },
-    {
-      "name": "Carlão",
-      "email": "cozinheiro@burguerMV.com",
-      "password": "$2a$10$35Iswv/kwaUYDD8c8kTnkevSCI2etUqjy7atdG80XMjg5XGNAYz.2",
-      "role": "chefe",
-      "id": 2
-    },
-    {
-      "email": "administrador@burguerMV.com",
-      "password": "$2a$10$/xHIoXvgEBpG4KSMgBuhN.tS5WnoMDolpg.y2xj77wvSGQv6kUvNu",
-      "role": "admin",
-      "id": 3
-    },
-    {
-      "email": "ddor@burguerMV.com",
-      "password": "$2a$10$OJ/Rzlp2dAc5qs/a7oJukejXz9kGD4R9VL2i6FXkerOneVDx8LgR.",
-      "id": 4,
-      "name": "Vit",
-      "role": "chefe"
-    },
-    {
-      "email": "admsssinistrador@burguerMV.com",
-      "password": "$2a$10$VsFQlU8VUYO1wN14Gyg72e0E9BhC6KZmrrDIrzmYpmto6Yt6jX9oG",
-      "name": "ss",
-      "role": "service",
-      "id": 5
-    }
+      {
+        "email": "garconente@burguerMV.com",
+        "password": "$2a$10$/VZsgjQ7ztMtO4cEiYkADuXWlJRp79s82jVEVkcSR1Fr8LxzXzDYC",
+        "role": "admin",
+        "id": 1
+      },
+      {
+        "email": "cozinheiro@burguerMV.com",
+        "password": "$2a$10$35Iswv/kwaUYDD8c8kTnkevSCI2etUqjy7atdG80XMjg5XGNAYz.2",
+        "role": "chefe",
+        "id": 2
+      },
+      {
+        "email": "administrador@burguerMV.com",
+        "password": "$2a$10$/xHIoXvgEBpG4KSMgBuhN.tS5WnoMDolpg.y2xj77wvSGQv6kUvNu",
+        "role": "admin",
+        "id": 3
+      }
   ]
 }
