@@ -1,67 +1,93 @@
 {
   "orders": [
     {
+      "client": "Nury",
+      "products": [
+        {
+          "id": "2",
+          "name": "Café com leite",
+          "price": "7",
+          "image": "https://images2.imgbox.com/68/73/Rr42qohO_o.png",
+          "type": "Café da manha",
+          "dataEntry": "2023-08-16 20:16:04",
+          "quantity": 2
+        },
+        {
+          "id": "1",
+          "name": "Café americano",
+          "price": "5",
+          "image": "https://images2.imgbox.com/55/d6/DCERopVE_o.png",
+          "type": "Café da manha",
+          "dataEntry": "2023-08-16 20:06:01",
+          "quantity": 2
+        }
+      ],
+      "status": "ready",
+      "dateEntry": "2023-09-06T12:28:49.150Z",
+      "dateProcessed": "2023-09-06T12:29:28.869Z",
       "id": 1,
-      "userId": "1",
-      "client": "Mislene",
-      "products": [
+      "productDetails": [
         {
-          "qty": 1,
-          "product": {
-            "id": "1",
-            "name": "Anéis de cebola",
-            "price": "5",
-            "image": "https://images2.imgbox.com/26/18/bF8IBK4m_o.png",
-            "type": "Almoço",
-            "dataEntry": "2023-08-16 20:28:10"
-          }
+          "productName": "Café com leite",
+          "quantity": 2
+        },
+        {
+          "productName": "Café americano",
+          "quantity": 2
         }
       ],
-      "status": "pending",
-      "dateEntry": "2023-08-16 20:28:10",
-      "dateProcessed": "2023-08-17 16:00"
+      "entregue": true
     },
     {
+      "client": "Maria",
+      "products": [
+        {
+          "id": "1",
+          "name": "Café americano",
+          "price": "5",
+          "image": "https://images2.imgbox.com/55/d6/DCERopVE_o.png",
+          "type": "Café da manha",
+          "dataEntry": "2023-08-16 20:06:01",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "name": "Sanduíche de presunto e queijo",
+          "price": "10",
+          "image": "https://images2.imgbox.com/3f/08/m3deReIM_o.png",
+          "type": "Café da manha",
+          "dataEntry": "2023-08-16 20:17:08",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Café com leite",
+          "price": "7",
+          "image": "https://images2.imgbox.com/68/73/Rr42qohO_o.png",
+          "type": "Café da manha",
+          "dataEntry": "2023-08-16 20:16:04",
+          "quantity": 2
+        }
+      ],
+      "status": "ready",
+      "dateEntry": "2023-09-14T16:02:35.937Z",
+      "dateProcessed": "2023-09-14T16:02:50.119Z",
       "id": 2,
-      "userId": "2",
-      "client": "Vitória",
-      "products": [
+      "productDetails": [
         {
-          "qty": 2,
-          "product": {
-            "id": "6",
-            "name": "Hambúrguer duplo",
-            "price": "15",
-            "image": "https://images2.imgbox.com/1e/5e/6gp2IPLd_o.png",
-            "type": "Almoço",
-            "dataEntry": "2023-08-16 20:28:10"
-          }
+          "productName": "Café americano",
+          "quantity": 1
+        },
+        {
+          "productName": "Sanduíche de presunto e queijo",
+          "quantity": 1
+        },
+        {
+          "productName": "Café com leite",
+          "quantity": 2
         }
       ],
-      "status": "pending",
-      "dateEntry": "2023-08-16 20:28:10",
-      "dateProcessed": "2023-08-17 16:00"
-    },
-    {
-      "id": 3,
-      "userId": "3",
-      "client": "Mo",
-      "products": [
-        {
-          "qty": 3,
-          "product": {
-            "id": "1",
-            "name": "Café Americano",
-            "price": "5",
-            "image": "https://images2.imgbox.com/55/d6/DCERopVE_o.png",
-            "type": "Café da manha",
-            "dataEntry": "2023-08-16 20:28:10"
-          }
-        }
-      ],
-      "status": "pending",
-      "dateEntry": "2023-08-16 20:28:10",
-      "dateProcessed": "2023-08-17 16:00"
+      "entregue": true
     }
   ],
   "products": [
@@ -166,22 +192,39 @@
   ],
   "users": [
     {
-      "email": "garconete@burguerMV.com",
-      "password": "$2a$10$/VZsgjQ7ztMtO4cEiYkADuXWlJRp79s82jVEVkcSR1Fr8LxzXzDYC",
-      "role": "service",
-      "id": 1
-    },
-    {
-      "email": "cozinheiro@burguerMV.com",
-      "password": "$2a$10$35Iswv/kwaUYDD8c8kTnkevSCI2etUqjy7atdG80XMjg5XGNAYz.2",
-      "role": "chefe",
-      "id": 2
-    },
-    {
       "email": "administrador@burguerMV.com",
       "password": "$2a$10$/xHIoXvgEBpG4KSMgBuhN.tS5WnoMDolpg.y2xj77wvSGQv6kUvNu",
       "role": "admin",
-      "id": 3
+      "id": 3,
+      "name": "Mislene"
+    },
+    {
+      "email": "garconete@burguerMV.com",
+      "password": "$2a$10$eQK/mh0/yZSAlZyZO8R4TuDwiM50EQfXLLPWCKgma6iNJOt.qhE0y",
+      "name": "Maria",
+      "role": "service",
+      "id": 4
+    },
+    {
+      "email": "cozinheiro@burguerMV.com",
+      "password": "$2a$10$xtoiwnFljMpvrxgturcflOIRKwl/7C0bK.wpYlTe6PIm65FN0ji.W",
+      "name": "Jose",
+      "role": "chefe",
+      "id": 5
+    },
+    {
+      "email": "karine@burguerMV.com",
+      "password": "$2a$10$6i3r6kpWSUMblKjxcIEhBOkaihehXzc7cs8sJSor3/l6DBQbrX8Fy",
+      "name": "Karine",
+      "role": "service",
+      "id": 6
+    },
+    {
+      "email": "karol@burguerMV.com",
+      "password": "$2a$10$2wmlYZvRk8uhVWrR.fTSBOEUvEwI0pvd9/ZbR.aDehyyIY6bT0o7G",
+      "name": "Karol",
+      "role": "chefe",
+      "id": 7
     }
   ]
 }
