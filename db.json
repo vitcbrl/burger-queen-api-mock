@@ -1,7 +1,5 @@
 {
-  "orders": [
-    
-  ],
+  "orders": [],
   "products": [
     [
       {
@@ -120,7 +118,7 @@
     {
       "email": "cozinheiro@burguerMV.com",
       "password": "$2a$10$xtoiwnFljMpvrxgturcflOIRKwl/7C0bK.wpYlTe6PIm65FN0ji.W",
-      "name": "Jose Silva",
+      "name": "Jose",
       "role": "chefe",
       "id": 5
     }
